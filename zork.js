@@ -7,7 +7,7 @@ async function name(){
     });
 }
 name().then(function(response) {
-    console.log(`Hello ${response.value}, welcome to the game of idk yet, press enter to begin.`)
+   // console.log(`Hello ${response.value}, welcome to the game of idk yet, press enter to begin.`)
 })
 
 function gamestart(){
@@ -16,7 +16,7 @@ function gamestart(){
 }
 setTimeout(gamestart, 5000);
 
-function decide1() {
+/*function decide1() {
 const prompts = require('prompts');
 let response = prompts({
     type: 'text',
@@ -25,6 +25,12 @@ let response = prompts({
 });
 }
 decide1()
+*/
+
+
+
+
+
 
 /*
 //Currently have this commented out so I can test indiivudal lines before allowing it all to execute to isolate errors.

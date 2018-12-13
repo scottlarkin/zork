@@ -7,7 +7,7 @@ async function name(){
     });
 }
 name().then(function(response) {
-   // console.log(`Hello ${response.value}, welcome to the game of idk yet, press enter to begin.`)
+   // How do I make it wait until I press enter until the next line of code runs? console.log(`Hello ${response.value}, welcome to the game of idk yet, press enter to begin.`)
 })
 
 function gamestart(){
@@ -25,7 +25,9 @@ let response = prompts({
 });
 }
 decide1()
+This runs before it even asks for my name, how do I make it wait until it reaches this line before it executes immediately?
 */
+
 
 
 

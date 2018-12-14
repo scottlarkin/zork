@@ -26,7 +26,7 @@ const multipleChoiceQuestion = async (question, possibleAnswers) => {
 
 const gamestart = async () => {
 
-    // ask the first question and await the response, storign the answer in the playerName constant
+    // ask the first question and await the response, storing the answer in the playerName constant
     const playerName = await askQuestion("What is your name");
     
     console.log(`Hi ${playerName}`);
